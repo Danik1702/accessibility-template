@@ -45,7 +45,7 @@ export const Header = () => {
     <header id="header" className="vertical-centralize-children">
       <nav className="header-navigation vertical-centralize-children">
         <div className="header-logo">
-          <a href="#" aria-label="App Home Page">
+          <a href="#home" aria-label="App Home Page">
             <LogoIcon />
           </a>
         </div>

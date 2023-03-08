@@ -3,10 +3,10 @@ import { PlantMeForm, Image } from "../index"
 import './footer.styles.scss';
 
 const footerNavLinks = [
-  { id: 0, text: 'About Us', url: '#' },
-  { id: 1, text: 'Contact Us', url: '#' },
-  { id: 2, text: 'Blog', url: '#' },
-  { id: 3, text: 'Site Map', url: '#' }
+  { id: 0, text: 'About Us', url: '#about-us' },
+  { id: 1, text: 'Contact Us', url: '#contact-us' },
+  { id: 2, text: 'Blog', url: '#home' },
+  { id: 3, text: 'Site Map', url: '#footer' }
 ];
 
 const footerRightLinks = [
