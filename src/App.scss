@@ -1,0 +1,89 @@
+.App {
+  width: 100%;
+
+  .app-body {
+    width: 100%;
+    box-sizing: border-box;
+
+    #home {
+      background-color: #F9F9F9;
+      width: 100%;
+
+      .home-wrapper {
+        padding-top: 24px;
+        padding-bottom: 60px;
+        display: flex;
+        box-sizing: border-box;
+        
+        .home-info {
+          margin-top: 162px;
+          margin-right: 18px;
+          width: 100%;
+  
+          .home-header {
+            color: #3A6150;
+          }
+  
+          .home-content {
+            margin: 36px 0;
+  
+            .home-content-header {
+              margin-bottom: 12px;
+              font-size: 24px;
+              line-height: 120%;
+              font-weight: 500;
+              color: #3A6150;
+            }
+          }
+        }
+
+        .home-image-wrapper {
+          width: 648px;
+          height: 648px;
+          min-width: 648px;
+        }
+      }
+    }
+
+    #about-us {
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      background-color: #ffffff;
+
+      .about-us-container {
+        width: 100%;
+        max-width: 647px;
+      }
+    }
+
+    #contact-us {
+      width: 100%;
+      box-sizing: border-box;
+      padding-top: 80px;
+      padding-bottom: 120px;
+      background-color: #71837B;
+
+      .contact-us-container {
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 12px;
+        overflow: hidden;
+        display: flex;
+
+        .contact-us-card-container {
+          width: 100%;
+          max-width: 425px;
+        }
+
+        .contact-us-form-wrapper {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 48px 20px 0;
+        }
+      }
+    }
+  }
+}

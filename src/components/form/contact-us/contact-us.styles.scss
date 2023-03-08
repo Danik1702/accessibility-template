@@ -1,0 +1,47 @@
+.contact-us-form-container .contact-us-form {
+  .two-text-inputs-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+    
+    .text-input-container {
+      width: 100%;
+      max-width: 416px;
+    }
+
+    .text-input-container:first-of-type {
+      margin-right: 18px;
+    }
+  }
+
+  .radio-input-group {
+    margin-bottom: 26px;
+
+    .radio-inputs-list {
+      display: flex;
+
+      .radio-input-wrapper:not(.radio-input-wrapper:last-of-type) {
+        margin-right: 36px;
+      }
+    }
+  }
+
+  .checkbox-group {
+    margin: 26px 0 32px;
+    display: flex;
+
+    .checkbox-wrapper:not(.checkbox-wrapper:last-of-type) {
+      margin-right: 48px;
+    }
+  }
+
+  .form-submit-container {
+    display: flex;
+    justify-content: flex-end;
+
+    .form-submit-button {
+      width: 100%;
+      max-width: 196px;
+    }
+  }
+}

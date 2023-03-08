@@ -1,0 +1,95 @@
+#footer {
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 24px 0;
+
+  .footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-bottom: 24px;
+
+    .plant-me {
+      .plant-me-description {
+        margin: 20px 0 30px;
+      }
+    }
+    
+    .links-and-contacts {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 533px;
+
+      .footer-nav-links .footer-nav-list {
+        display: flex;
+        flex-direction: column;
+
+        .footer-nav-item:not(.footer-nav-item:last-of-type) {
+          margin-bottom: 16px;
+        }
+      }
+    }
+
+    .footer-contacts {
+      .contacts-phone-number {
+        margin: 8px 0;
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      .contacts-email {
+        color:rgba(0, 0, 0, 0.6);
+      }
+
+      .sponsors-container {
+        width: 100%;
+        max-width: 136px;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        .sponsor-visa-container {
+          width: 50px;
+          min-width: 50px;
+          height: 28.12px;
+        }
+
+        .sponsor-mastercard-container {
+          width: 50px;
+          min-width: 50px;
+          height: 41.08px;
+        }
+      }
+    }
+  }
+
+  .rights-info {
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #E9E9E9;
+    padding-top: 24px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .rights-list {
+      position: absolute;
+      top: 24px;
+      right: 64px;
+      display: flex;
+
+      .rights-item {
+        margin-right: 16px;
+
+        .rights-item-text {
+          color: rgba(17, 17, 17, 0.5);
+        }        
+      }
+
+      .rights-item:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}

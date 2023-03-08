@@ -1,0 +1,21 @@
+.checkbox-container {
+  position: relative;
+
+  .checkbox-input {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  .text-label {
+    margin-left: 8px;
+  }
+
+  .checkbox-icon-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

@@ -1,0 +1,58 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+
+  .input-label {
+    margin-bottom: 8px;
+
+    .required-input-field {
+      color: #FF0000;
+    }
+  }
+
+  .input-wrapper {
+    display: flex;
+
+    .input-field {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px 12px 12px 8px;
+      border: 1px solid #111111;
+      border-radius: 3px;
+      caret-color: #607085;
+    }
+    .input-field::placeholder {
+      color: rgba(17, 17, 17, 0.5);
+    }
+    .input-field:focus {
+      outline: 1px solid #3A6150;
+    }
+
+    .input-field.search-field {
+      border: 2px solid #3A6150;
+      border-radius: 2px 0px 0px 2px;
+      padding: 11px 15px 11px 16px;
+      font-size: 18px;
+      line-height: 26px;
+      color: rgb(58, 97, 80);
+    }
+    .input-field.search-field::placeholder {
+      color: rgba(58, 97, 80, 0.7);
+    }
+    .input-field.search-field:focus {
+      outline: none;
+    }
+
+    .input-field.plant-me-input {
+      border: none;
+      border-bottom: 1px solid #111111;
+      border-radius: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .input-field.plant-me-input:focus {
+      border-bottom: 1px solid #3A6150;
+      outline: none;
+    }
+  }
+}

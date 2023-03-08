@@ -1,0 +1,37 @@
+.about-us-card {
+  width: 100%;
+  background-color: #3A6150;
+  box-sizing: border-box;
+  display: flex;
+  padding: 24px 24px 35px;
+  border-radius: 2px;
+
+  .about-us-image-container {
+    width: 180px;
+    min-width: 180px;
+    height: 230px;
+    margin-right: 18px;
+  }
+
+  .about-us-content-container {
+    display: flex;
+    flex-direction: column;
+
+    .about-us-header {
+      font-size: 18px;
+      line-height: 150%;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .about-us-description {
+      color: #ffffff;
+      margin: 12px 0 23px;
+    }
+
+    .about-us-link {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  }
+}

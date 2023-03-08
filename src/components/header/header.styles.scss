@@ -1,0 +1,49 @@
+#header {
+  width: 100%;
+  max-width: 1440px;
+  height: 80px;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 0 64px;
+  margin: 0 auto;
+
+  .header-navigation {
+    .header-logo {
+      margin-right: 77px;
+    }
+
+    .header-navigation-list {
+      display: flex;
+
+      .header-navigation-item {
+        .navigation-item-separator {
+          display: inline-block;
+          margin: 0 16px;
+          width: 0px;
+          height: 18px;
+          border: 1px solid #111111;
+        }
+
+        .header-navigation-button {
+          .arrow-down-wrap {
+            margin-left: 4px;
+          }
+        }
+      }
+    }
+  }
+
+  .header-search {
+   width: 100%;
+   max-width: 424px;
+
+    .submit-button-wrapper .submit-button {
+      height: 48px;
+      width: 48px;
+      justify-content: center;
+      background: #3A6150;
+      border-radius: 0px 2px 2px 0px;
+    }
+  }
+}
