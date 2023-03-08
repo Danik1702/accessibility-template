@@ -6,11 +6,7 @@ export const AboutUs = ({ text, description, linkUrl, linkText }) => (
   <section className="about-us-card">
     <div className="about-us-image-container">
       <Image
-        urls={[
-          require('../../../assets/img/Rectangle570.png'),
-          require('../../../assets/img/Rectangle570@2x.png'),
-          require('../../../assets/img/Rectangle570@3x.png')
-        ]}
+        url={require('../../../assets/img/Rectangle570.png')}
         alt="leaf"
       />
     </div>
