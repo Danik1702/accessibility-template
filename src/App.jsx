@@ -41,11 +41,7 @@ const  App = () => {
             </div>
             <div className="home-image-wrapper">
               <Image 
-                urls={[
-                  require('./assets/img/unsplash_W5XTTLpk1-I.png'),
-                  require('./assets/img/unsplash_W5XTTLpk1-I@2x.png'),
-                  require('./assets/img/unsplash_W5XTTLpk1-I@3x.png')
-                ]} 
+                url={require('./assets/img/unsplash_W5XTTLpk1-I.png')}
                 alt="plant"
                 isFirstImage={true} 
               />
